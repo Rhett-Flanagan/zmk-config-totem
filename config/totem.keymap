@@ -197,10 +197,10 @@
         Typing {
             label = "Typing";
             bindings = <
-       &kp Z  &kp P  &kp D                &kp L        &kp X              &kp EQUAL  &kp U          &kp O                 &kp Y      &kp Q
-       &kp S  &kp N  &hrm_l LEFT_SHIFT T  &kp H        &kp K              &kp MINUS  &kp E          &hrm_r RIGHT_SHIFT A  &kp I      &kp C
-&kp W  &kp V  &kp F  &kp G                &kp M        &kp J              &kp SLASH  &kp SEMICOLON  &kp PERIOD            &kp COMMA  &kp APOSTROPHE  &kp B
-                     &lt 1 C_REPEAT       &lt 1 SPACE  &lt 2 BACKSPACE    &lt 2 DEL  &lt 3 R        &lt 4 C_REPEAT
+       &kp Z  &kp P  &kp D                &kp L    &kp X              &kp EQUAL  &kp U          &kp O                 &kp Y      &kp Q
+       &kp S  &kp N  &hrm_l LEFT_SHIFT T  &kp H    &kp K              &kp MINUS  &kp E          &hrm_r RIGHT_SHIFT A  &kp I      &kp C
+&kp W  &kp V  &kp F  &kp G                &kp M    &kp J              &kp SLASH  &kp SEMICOLON  &kp PERIOD            &kp COMMA  &kp APOSTROPHE  &kp B
+                     &lt 1 C_REPEAT       &lt 1 R  &lt 2 BACKSPACE    &lt 2 DEL  &lt 3 SPACE    &lt 4 C_REPEAT
             >;
         };
     };
