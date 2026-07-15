@@ -49,7 +49,7 @@
         };
 
         typing_layer {
-            bindings = <&tog 6>;
+            bindings = <&tog 0>;
             key-positions = <20 31>;
             layers = <0>;
         };
@@ -136,9 +136,9 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp Q          &kp Y          &kp O                &kp U                  &kp EQUAL          &kp X      &kp L                   &kp D                 &kp P              &kp Z
-       &hrm_l LGUI C  &hrm_l LALT I  &hrm_l LEFT_SHIFT A  &hrm_l LEFT_CONTROL E  &kp MINUS          &kp K      &hrm_r RIGHT_CONTROL H  &hrm_r RIGHT_SHIFT T  &hrm_r LEFT_ALT N  &hrm_r RGUI S
-&kp B  &kp SQT        &kp COMMA      &kp PERIOD           &kp SEMICOLON          &kp SLASH          &kp J      &kp M                   &kp G                 &kp F              &kp V          &kp W
+       &kp Z          &kp P          &kp D                &kp L                  &kp X              &kp EQUAL  &kp U                   &kp O                 &kp Y              &kp Q
+       &hrm_l LGUI S  &hrm_l LALT N  &hrm_l LEFT_SHIFT T  &hrm_l LEFT_CONTROL H  &kp K              &kp MINUS  &hrm_r RIGHT_CONTROL E  &hrm_r RIGHT_SHIFT A  &hrm_r LEFT_ALT I  &hrm_r RGUI C
+&kp W  &kp V          &kp F          &kp G                &kp M                  &kp J              &kp SLASH  &kp SEMICOLON           &kp PERIOD            &kp COMMA          &kp APOSTROPHE  &kp B
                                      &lt 1 C_REPEAT       &lt 1 SPACE            &lt 2 BACKSPACE    &lt 2 DEL  &lt 3 R                 &lt 4 C_REPEAT
             >;
         };
@@ -197,10 +197,10 @@
         Typing {
             label = "Typing";
             bindings = <
-       &kp Q          &kp Y          &kp O                &kp U                  &kp EQUAL          &kp X      &kp L                   &kp D                 &kp P               &kp Z
-       &hrm_l LGUI C  &hrm_l LALT I  &hrm_l LEFT_SHIFT A  &hrm_l LEFT_CONTROL E  &kp MINUS          &kp K      &hrm_r RIGHT_CONTROL H  &hrm_r RIGHT_SHIFT T  &hrm_r RIGHT_ALT N  &hrm_r RGUI S
-&kp B  &kp SQT        &kp COMMA      &kp PERIOD           &kp SEMICOLON          &kp SLASH          &kp J      &kp M                   &kp G                 &kp F               &kp V          &kp W
-                                     &lt 1 C_REPEAT       &lt 1 SPACE            &lt 2 BACKSPACE    &lt 2 DEL  &lt 3 R                 &lt 4 C_REPEAT
+       &kp Z  &kp P  &kp D                &kp L        &kp X              &kp EQUAL  &kp U          &kp O                 &kp Y      &kp Q
+       &kp S  &kp N  &hrm_l LEFT_SHIFT T  &kp H        &kp K              &kp MINUS  &kp E          &hrm_r RIGHT_SHIFT A  &kp I      &kp C
+&kp W  &kp V  &kp F  &kp G                &kp M        &kp J              &kp SLASH  &kp SEMICOLON  &kp PERIOD            &kp COMMA  &kp APOSTROPHE  &kp B
+                     &lt 1 C_REPEAT       &lt 1 SPACE  &lt 2 BACKSPACE    &lt 2 DEL  &lt 3 R        &lt 4 C_REPEAT
             >;
         };
     };
