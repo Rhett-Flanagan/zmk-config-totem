@@ -24,7 +24,7 @@
     quick-tap-ms = <100>;
     global-quick-tap;
     flavor = "tap-preferred";
-    tapping-term-ms = <170>;
+    tapping-term-ms = <200>;
 };
 
 / {
@@ -89,7 +89,7 @@
             #binding-cells = <2>;
             flavor = "tap-unless-interrupted";
             hold-trigger-key-positions = <26 15 5 6 27 35 36 37 16 7 17 28 29 18 8 9 19 30 31>;
-            tapping-term-ms = <170>;
+            tapping-term-ms = <200>;
             quick-tap-ms = <100>;
             hold-trigger-on-release;
         };
@@ -101,38 +101,10 @@
 
             #binding-cells = <2>;
             flavor = "tap-unless-interrupted";
-            tapping-term-ms = <170>;
+            tapping-term-ms = <200>;
             quick-tap-ms = <100>;
             hold-trigger-key-positions = <20 21 32 0 1 2 3 4 10 11 12 13 14 20 21 22 23 24 25 32 33 34>;
             hold-trigger-on-release;
-        };
-
-        td_hrm_l_gui: td_hrm_l_gui {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TD_HRM_L_GUI";
-            #binding-cells = <0>;
-            bindings = <&hrm_l LEFT_GUI C>, <&kp C>, <&none>;
-        };
-
-        td_hrm_l_alt: td_hrm_l_alt {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TD_HRM_L_ALT";
-            #binding-cells = <0>;
-            bindings = <&hrm_l LEFT_ALT I>, <&kp I>, <&none>;
-        };
-
-        td_hrm_l_shift: td_hrm_l_shift {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TD_HRM_L_SHIFT";
-            #binding-cells = <0>;
-            bindings = <&hrm_l LEFT_SHIFT A>, <&kp I>, <&none>;
-        };
-
-        td_hrm_l_ctrl: td_hrm_l_ctrl {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TD_HRM_L_CTRL";
-            #binding-cells = <0>;
-            bindings = <&hrm_l LCTRL E>, <&kp E>;
         };
     };
 
@@ -158,10 +130,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp Q          &kp Y          &kp O                &kp U                  &kp EQUAL      &kp X            &kp L                   &kp D                 &kp P       &kp Z
-       &hrm_l LGUI C  &hrm_l LALT I  &hrm_l LEFT_SHIFT A  &hrm_l LEFT_CONTROL T  &kp MINUS      &kp K            &hrm_r RIGHT_CONTROL H  &hrm_r RIGHT_SHIFT T  &hrm_r N I  &hrm_r RGUI S
-&kp B  &kp SQT        &kp COMMA      &kp PERIOD           &kp SEMICOLON          &kp SLASH      &kp J            &kp M                   &kp G                 &kp F       &kp V          &kp W
-                                     &lt 1 C_REPEAT       &lt 1 SPACE            &lt 2 ENTER    &lt 2 BACKSPACE  &lt 3 R                 &lt 4 C_REPEAT
+       &kp Q          &kp Y          &kp O                &kp U                  &kp EQUAL          &kp X      &kp L                   &kp D                 &kp P       &kp Z
+       &hrm_l LGUI C  &hrm_l LALT I  &hrm_l LEFT_SHIFT A  &hrm_l LEFT_CONTROL E  &kp MINUS          &kp K      &hrm_r RIGHT_CONTROL H  &hrm_r RIGHT_SHIFT T  &hrm_r N I  &hrm_r RGUI S
+&kp B  &kp SQT        &kp COMMA      &kp PERIOD           &kp SEMICOLON          &kp SLASH          &kp J      &kp M                   &kp G                 &kp F       &kp V          &kp W
+                                     &lt 1 C_REPEAT       &lt 1 SPACE            &lt 2 BACKSPACE    &lt 2 DEL  &lt 3 R                 &lt 4 C_REPEAT
             >;
         };
 
