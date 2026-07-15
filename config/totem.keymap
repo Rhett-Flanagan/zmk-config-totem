@@ -197,9 +197,9 @@
         Typing {
             label = "Typing";
             bindings = <
-       &kp Q          &kp Y          &kp O                &kp U                  &kp EQUAL          &kp X      &kp L                   &kp D                 &kp P       &kp Z
-       &hrm_l LGUI C  &hrm_l LALT I  &hrm_l LEFT_SHIFT A  &hrm_l LEFT_CONTROL E  &kp MINUS          &kp K      &hrm_r RIGHT_CONTROL H  &hrm_r RIGHT_SHIFT T  &hrm_r N I  &hrm_r RGUI S
-&kp B  &kp SQT        &kp COMMA      &kp PERIOD           &kp SEMICOLON          &kp SLASH          &kp J      &kp M                   &kp G                 &kp F       &kp V          &kp W
+       &kp Q          &kp Y          &kp O                &kp U                  &kp EQUAL          &kp X      &kp L                   &kp D                 &kp P               &kp Z
+       &hrm_l LGUI C  &hrm_l LALT I  &hrm_l LEFT_SHIFT A  &hrm_l LEFT_CONTROL E  &kp MINUS          &kp K      &hrm_r RIGHT_CONTROL H  &hrm_r RIGHT_SHIFT T  &hrm_r RIGHT_ALT N  &hrm_r RGUI S
+&kp B  &kp SQT        &kp COMMA      &kp PERIOD           &kp SEMICOLON          &kp SLASH          &kp J      &kp M                   &kp G                 &kp F               &kp V          &kp W
                                      &lt 1 C_REPEAT       &lt 1 SPACE            &lt 2 BACKSPACE    &lt 2 DEL  &lt 3 R                 &lt 4 C_REPEAT
             >;
         };
