@@ -139,7 +139,7 @@
        &kp Z          &kp P          &kp D                &kp L                  &kp X              &kp EQUAL  &kp U                   &kp O                 &kp Y              &kp Q
        &hrm_l LGUI S  &hrm_l LALT N  &hrm_l LEFT_SHIFT T  &hrm_l LEFT_CONTROL H  &kp K              &kp MINUS  &hrm_r RIGHT_CONTROL E  &hrm_r RIGHT_SHIFT A  &hrm_r LEFT_ALT I  &hrm_r RGUI C
 &kp W  &kp V          &kp F          &kp G                &kp M                  &kp J              &kp SLASH  &kp SEMICOLON           &kp PERIOD            &kp COMMA          &kp APOSTROPHE  &kp B
-                                     &lt 1 C_REPEAT       &lt 1 SPACE            &lt 2 BACKSPACE    &lt 2 DEL  &lt 3 R                 &lt 4 C_REPEAT
+                                     &lt 1 C_REPEAT       &lt 1 R                &lt 2 BACKSPACE    &lt 2 DEL  &lt 3 SPACE             &lt 4 C_REPEAT
             >;
         };
 
