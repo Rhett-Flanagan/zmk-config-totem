@@ -47,6 +47,12 @@
             bindings = <&kp ENTER>;
             key-positions = <35 36>;
         };
+
+        typing_layer {
+            bindings = <&tog 6>;
+            key-positions = <20 31>;
+            layers = <0>;
+        };
     };
 
     macros {
@@ -185,6 +191,16 @@
         &trans  &trans  &trans  &caps_word  &kp CAPSLOCK    &trans  &kp C_REWIND          &kp C_PLAY_PAUSE       &kp C_FAST_FORWARD    &trans
 &trans  &trans  &trans  &trans  &trans      &trans          &trans  &kp C_VOL_DN          &kp K_MUTE             &kp C_VOLUME_UP       &trans  &trans
                         &trans  &trans      &trans          &trans  &trans                &trans
+            >;
+        };
+
+        Typing {
+            label = "Typing";
+            bindings = <
+       &kp Q          &kp Y          &kp O                &kp U                  &kp EQUAL          &kp X      &kp L                   &kp D                 &kp P       &kp Z
+       &hrm_l LGUI C  &hrm_l LALT I  &hrm_l LEFT_SHIFT A  &hrm_l LEFT_CONTROL E  &kp MINUS          &kp K      &hrm_r RIGHT_CONTROL H  &hrm_r RIGHT_SHIFT T  &hrm_r N I  &hrm_r RGUI S
+&kp B  &kp SQT        &kp COMMA      &kp PERIOD           &kp SEMICOLON          &kp SLASH          &kp J      &kp M                   &kp G                 &kp F       &kp V          &kp W
+                                     &lt 1 C_REPEAT       &lt 1 SPACE            &lt 2 BACKSPACE    &lt 2 DEL  &lt 3 R                 &lt 4 C_REPEAT
             >;
         };
     };
