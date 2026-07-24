@@ -132,10 +132,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp W          &kp P          &kp D                &kp L                  &kp X      &kp EQUAL    &kp U                   &kp O                 &kp Y              &kp B
-       &hrm_l LGUI S  &hrm_l LALT N  &hrm_l LEFT_SHIFT T  &hrm_l LEFT_CONTROL H  &kp K      &kp MINUS    &hrm_r RIGHT_CONTROL E  &hrm_r RIGHT_SHIFT A  &hrm_r LEFT_ALT I  &hrm_r RGUI C
-&kp Z  &kp V          &kp F          &kp G                &kp M                  &kp J      &kp SLASH    &kp SEMICOLON           &kp PERIOD            &kp COMMA          &kp APOSTROPHE  &kp Q
-                                     &lt 1 BACKSPACE      &lt 2 RETURN           &lt 1 R    &lt 3 SPACE  &lt 2 TAB               &lt 4 DELETE
+       &kp W          &kp P          &kp D                &kp L                  &kp X           &kp EQUAL  &kp U                   &kp O                 &kp Y              &kp B
+       &hrm_l LGUI S  &hrm_l LALT N  &hrm_l LEFT_SHIFT T  &hrm_l LEFT_CONTROL H  &kp K           &kp MINUS  &hrm_r RIGHT_CONTROL E  &hrm_r RIGHT_SHIFT A  &hrm_r LEFT_ALT I  &hrm_r RGUI C
+&kp Z  &kp V          &kp F          &kp G                &kp M                  &kp J           &kp SLASH  &kp SEMICOLON           &kp PERIOD            &kp COMMA          &kp APOSTROPHE  &kp Q
+                                     &lt 1 BACKSPACE      &lt 1 R                &lt 2 RETURN    &lt 2 TAB  &lt 3 SPACE             &lt 4 DELETE
             >;
         };
 
@@ -193,10 +193,10 @@
         Typing {
             label = "Typing";
             bindings = <
-       &kp V  &kp P  &kp D                &kp L        &kp X      &kp EQUAL    &kp U          &kp O                 &kp Y      &kp B
-       &kp S  &kp N  &hrm_l LEFT_SHIFT T  &kp H        &kp K      &kp MINUS    &kp E          &hrm_r RIGHT_SHIFT A  &kp I      &kp C
-&kp Z  &kp W  &kp F  &kp G                &kp M        &kp J      &kp SLASH    &kp SEMICOLON  &kp PERIOD            &kp COMMA  &kp SQT  &kp Q
-                     &lt 5 BACKSPACE      &lt 2 ENTER  &lt 1 R    &lt 3 SPACE  &lt 2 TAB      &lt 4 DELETE
+       &kp V  &kp P  &kp D                &kp L    &kp X          &kp EQUAL  &kp U          &kp O                 &kp Y      &kp B
+       &kp S  &kp N  &hrm_l LEFT_SHIFT T  &kp H    &kp K          &kp MINUS  &kp E          &hrm_r RIGHT_SHIFT A  &kp I      &kp C
+&kp Z  &kp W  &kp F  &kp G                &kp M    &kp J          &kp SLASH  &kp SEMICOLON  &kp PERIOD            &kp COMMA  &kp SQT  &kp Q
+                     &lt 5 BACKSPACE      &lt 1 R  &lt 2 ENTER    &lt 2 TAB  &lt 3 SPACE    &lt 4 DELETE
             >;
         };
     };
