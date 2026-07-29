@@ -67,7 +67,7 @@
     };
 
     macros {
-        double_colon: double_colon {
+        macro_double_colon: double_colon {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp COLON &kp COLON>;
@@ -79,6 +79,13 @@
             #binding-cells = <0>;
             bindings = <&kp DOT &kp DOT &kp FSLH>;
             label = "DIRECTORY_UP";
+        };
+
+        macro_qu: macro_qu {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Q &kp U>;
+            label = "MACRO_QU";
         };
     };
 
@@ -134,7 +141,7 @@
             bindings = <
        &kp W          &kp P          &kp D                &kp L                  &kp X           &kp EQUAL  &kp U                   &kp O                 &kp Y              &kp B
        &hrm_l LGUI S  &hrm_l LALT N  &hrm_l LEFT_SHIFT T  &hrm_l LEFT_CONTROL H  &kp K           &kp MINUS  &hrm_r RIGHT_CONTROL E  &hrm_r RIGHT_SHIFT A  &hrm_r LEFT_ALT I  &hrm_r RGUI C
-&kp Z  &kp V          &kp F          &kp G                &kp M                  &kp J           &kp SLASH  &kp SEMICOLON           &kp PERIOD            &kp COMMA          &kp APOSTROPHE  &kp Q
+&kp Z  &kp V          &kp F          &kp G                &kp M                  &kp J           &kp SLASH  &kp SEMICOLON           &kp PERIOD            &kp COMMA          &kp APOSTROPHE  &macro_qu
                                      &lt 1 BACKSPACE      &lt 1 R                &lt 2 RETURN    &lt 2 TAB  &lt 3 SPACE             &lt 4 DELETE
             >;
         };
@@ -156,7 +163,7 @@
 
         symbol {
             bindings = <
-               &kp AT_SIGN                  &kp LESS_THAN          &kp GREATER_THAN        &kp HASH            &trans    &trans  &double_colon           &kp LBKT                             &kp RBKT                            &kp PERCENT
+               &kp AT_SIGN                  &kp LESS_THAN          &kp GREATER_THAN        &kp HASH            &trans    &trans  &macro_double_colon     &kp LBKT                             &kp RBKT                            &kp PERCENT
                &hrm_l LEFT_GUI EXCLAMATION  &hrm_l LEFT_ALT MINUS  &hrm_l LEFT_SHIFT PLUS  &hrm_l LCTRL EQUAL  &trans    &trans  &hrm_r RCTRL AMPERSAND  &hrm_r RIGHT_SHIFT LEFT_PARENTHESIS  &hrm_r RIGHT_ALT RIGHT_PARENTHESIS  &hrm_r RIGHT_GUI QUESTION
 &kp BACKSPACE  &directory_up                &kp FSLH               &kp STAR                &kp BSLH            &trans    &trans  &kp DOLLAR              &kp LEFT_BRACE                       &kp RIGHT_BRACE                     &kp GRAVE                  &kp DEL
                                                                    &trans                  &trans              &trans    &trans  &trans                  &trans
