@@ -38,19 +38,8 @@
             bindings = <&kp ESC>;
         };
 
-        combo_tab {
-            bindings = <&kp TAB>;
-            key-positions = <33 34>;
-            layers = <0>;
-        };
-
-        combo_enter {
-            bindings = <&kp ENTER>;
-            key-positions = <35 36>;
-        };
-
         combo_typing_layer {
-            bindings = <&tog 0>;
+            bindings = <&tog 6>;
             key-positions = <20 31>;
             layers = <0>;
         };
@@ -115,6 +104,20 @@
             hold-trigger-key-positions = <20 21 32 0 1 2 3 4 10 11 12 13 14 20 21 22 23 24 25 32 33 34>;
             hold-trigger-on-release;
         };
+
+        td_backspace: td_backspace {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD_BACKSPACE";
+            #binding-cells = <0>;
+            bindings = <&lt 2 BACKSPACE>, <&kp BACKSPACE>;
+        };
+
+        td_delete: td_delete {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD_DELETE";
+            #binding-cells = <0>;
+            bindings = <&lt 2 DELETE>, <&kp DEL>;
+        };
     };
 
     keymap {
@@ -139,10 +142,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp W          &kp P          &kp D                &kp L                  &kp X              &kp EQUAL     &kp U                   &kp O                 &kp Y              &kp B
-       &hrm_l LGUI S  &hrm_l LALT N  &hrm_l LEFT_SHIFT T  &hrm_l LEFT_CONTROL H  &kp K              &kp MINUS     &hrm_r RIGHT_CONTROL E  &hrm_r RIGHT_SHIFT A  &hrm_r LEFT_ALT I  &hrm_r RGUI C
-&kp Z  &kp V          &kp F          &kp G                &kp M                  &kp J              &kp SLASH     &kp SEMICOLON           &kp PERIOD            &kp COMMA          &kp APOSTROPHE  &macro_qu
-                                     &lt 1 ENTER          &lt 1 R                &lt 2 BACKSPACE    &lt 2 DELETE  &lt 3 SPACE             &lt 4 TAB
+                 &kp W          &kp P          &kp D                &kp L                  &kp X              &kp EQUAL     &kp U                   &kp O                 &kp Y              &kp B
+                 &hrm_l LGUI S  &hrm_l LALT N  &hrm_l LEFT_SHIFT T  &hrm_l LEFT_CONTROL H  &kp K              &kp MINUS     &hrm_r RIGHT_CONTROL E  &hrm_r RIGHT_SHIFT A  &hrm_r LEFT_ALT I  &hrm_r RGUI C
+&mt BACKSPACE Z  &kp V          &kp F          &kp G                &kp M                  &kp J              &kp SLASH     &kp SEMICOLON           &kp PERIOD            &kp COMMA          &kp APOSTROPHE  &macro_qu
+                                               &lt 1 ENTER          &lt 1 R                &lt 2 BACKSPACE    &lt 2 DELETE  &lt 3 SPACE             &lt 4 TAB
             >;
         };
 
