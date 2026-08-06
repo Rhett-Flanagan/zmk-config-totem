@@ -142,10 +142,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                 &kp W          &kp P          &kp D                &kp L                  &kp X              &kp EQUAL     &kp U                   &kp O                 &kp Y              &kp B
-                 &hrm_l LGUI S  &hrm_l LALT N  &hrm_l LEFT_SHIFT T  &hrm_l LEFT_CONTROL H  &kp K              &kp MINUS     &hrm_r RIGHT_CONTROL E  &hrm_r RIGHT_SHIFT A  &hrm_r LEFT_ALT I  &hrm_r RGUI C
-&mt BACKSPACE Z  &kp V          &kp F          &kp G                &kp M                  &kp J              &kp SLASH     &kp SEMICOLON           &kp PERIOD            &kp COMMA          &kp APOSTROPHE  &macro_qu
-                                               &lt 1 ENTER          &lt 1 R                &lt 2 BACKSPACE    &lt 2 DELETE  &lt 3 SPACE             &lt 4 TAB
+                 &kp W          &kp P          &kp D                &kp L                  &kp X              &kp EQUAL    &kp U                   &kp O                 &kp Y              &kp B
+                 &hrm_l LGUI S  &hrm_l LALT N  &hrm_l LEFT_SHIFT T  &hrm_l LEFT_CONTROL H  &kp K              &kp MINUS    &hrm_r RIGHT_CONTROL E  &hrm_r RIGHT_SHIFT A  &hrm_r LEFT_ALT I  &hrm_r RGUI C
+&mt BACKSPACE Z  &kp V          &kp F          &kp G                &kp M                  &kp J              &kp SLASH    &kp SEMICOLON           &kp PERIOD            &kp COMMA          &kp APOSTROPHE  &macro_qu
+                                               &lt 1 DELETE         &lt 1 R                &lt 2 BACKSPACE    &lt 2 ENTER  &lt 3 SPACE             &lt 4 TAB
             >;
         };
 
