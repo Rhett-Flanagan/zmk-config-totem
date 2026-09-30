@@ -118,6 +118,18 @@
             #binding-cells = <0>;
             bindings = <&lt 2 DELETE>, <&kp DEL>;
         };
+
+        q_qu_macro_tap: q_qu_macro_tap {
+            compatible = "zmk,behavior-hold-tap";
+            label = "Q_QU_MACRO_TAP";
+            bindings = <&kp>, <&macro_qu>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
+            quick-tap-ms = <100>;
+            hold-trigger-on-release;
+        };
     };
 
     keymap {
@@ -144,7 +156,7 @@
             bindings = <
                  &kp W          &kp P          &kp D                &kp L                  &kp X              &kp EQUAL    &kp U                   &kp O                 &kp Y              &kp B
                  &hrm_l LGUI S  &hrm_l LALT N  &hrm_l LEFT_SHIFT T  &hrm_l LEFT_CONTROL H  &kp K              &kp MINUS    &hrm_r RIGHT_CONTROL E  &hrm_r RIGHT_SHIFT A  &hrm_r LEFT_ALT I  &hrm_r RGUI C
-&mt BACKSPACE Z  &kp V          &kp F          &kp G                &kp M                  &kp J              &kp SLASH    &kp SEMICOLON           &kp PERIOD            &kp COMMA          &kp APOSTROPHE  &macro_qu
+&mt BACKSPACE Z  &kp V          &kp F          &kp G                &kp M                  &kp J              &kp SLASH    &kp SEMICOLON           &kp PERIOD            &kp COMMA          &kp APOSTROPHE  &q_qu_macro_tap Q 0
                                                &lt 1 DELETE         &lt 1 R                &lt 2 BACKSPACE    &lt 2 ENTER  &lt 3 SPACE             &lt 4 TAB
             >;
         };
